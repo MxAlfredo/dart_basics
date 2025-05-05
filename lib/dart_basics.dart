@@ -164,3 +164,43 @@ void greetWithDefault(String name, [int age = 0]) {
 void greetWithNamedParameters({required String name, int age = 0}) {
   print('Hello, $name! You are $age years old.');
 }
+
+// Loops
+void loops() {
+  // For Loop
+  for (int i = 0; i < 5; i++) {
+    print('For Loop: $i');
+  }
+
+  // While Loop
+  int j = 0;
+  while (j < 5) {
+    print('While Loop: $j');
+    j++;
+  }
+
+  // Do-While Loop
+  int k = 0;
+  do {
+    print('Do-While Loop: $k');
+    k++;
+  } while (k < 5);
+}
+
+// Switch Case
+void switchCase() {
+  String day = 'Monday';
+  switch (day) {
+    case 'Monday':
+      print('Today is Monday');
+      break;
+    case 'Tuesday':
+      print('Today is Tuesday');
+      break;
+    case 'Wednesday':
+      print('Today is Wednesday');
+      break;
+    default:
+      print('Unknown day');
+  }
+}

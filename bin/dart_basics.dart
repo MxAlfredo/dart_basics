@@ -28,4 +28,7 @@ void main(List<String> arguments) {
   dart_basics.greet('Bob', age: 25);
   dart_basics.greetWithNamedParameters(name: "Doe");
   dart_basics.greetWithNamedParameters(name: "Jhon", age: 45);
+
+  dart_basics.loops();
+  dart_basics.switchCase();
 }
