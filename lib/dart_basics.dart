@@ -150,3 +150,17 @@ int calculateAge(int birthYear) {
   int currentYear = DateTime.now().year;
   return currentYear - birthYear;
 }
+
+// Optional Function Parameters
+void greet(String name, {int age = 0}) {
+  print('Hello, $name! You are $age years old.');
+}
+
+void greetWithDefault(String name, [int age = 0]) {
+  print('Hello, $name! You are $age years old.');
+}
+
+// Named Parameters
+void greetWithNamedParameters({required String name, int age = 0}) {
+  print('Hello, $name! You are $age years old.');
+}

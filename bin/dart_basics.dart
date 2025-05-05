@@ -20,4 +20,12 @@ void main(List<String> arguments) {
   } else {
     print('You are a senior citizen.');
   }
+
+  // Optional Function Parameters
+  dart_basics.greetWithDefault('Frank');
+  dart_basics.greetWithDefault('Eve', 35);
+  dart_basics.greet('Alice');
+  dart_basics.greet('Bob', age: 25);
+  dart_basics.greetWithNamedParameters(name: "Doe");
+  dart_basics.greetWithNamedParameters(name: "Jhon", age: 45);
 }
