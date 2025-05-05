@@ -144,3 +144,9 @@ void main() {
   print('Ternary Operator:');
   print('Ternary Result: $ternaryResult');
 }
+
+// Calculating the age of a person
+int calculateAge(int birthYear) {
+  int currentYear = DateTime.now().year;
+  return currentYear - birthYear;
+}
